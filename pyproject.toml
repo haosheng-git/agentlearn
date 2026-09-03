@@ -1,0 +1,9 @@
+[tool.pytest.ini_options]
+python_files = ["test_*.py"]
+addopts = "-p no:cacheprovider"
+norecursedirs = ["pytest-of-haosh"]
+
+[tool.ruff]
+target-version = "py312"
+line-length = 88
+extend-exclude = ["pytest-of-haosh"]

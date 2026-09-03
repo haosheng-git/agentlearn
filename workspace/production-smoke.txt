@@ -1,0 +1,4 @@
+Project: Mini Agent Core
+Release candidate: 1
+Safety rule: File reads must stay inside the configured workspace.
+Session rule: Successful runs save a complete message snapshot.
